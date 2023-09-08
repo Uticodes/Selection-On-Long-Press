@@ -211,27 +211,6 @@ class _TableExampleState extends State<TableExample> {
                                               icon: Icons.star_border,
                                               onItemClicked: handleItemSelected,
                                             ),
-                                            // const Padding(
-                                            //   padding: EdgeInsets.symmetric(
-                                            //       horizontal: 15, vertical: 8),
-                                            //   child: Row(
-                                            //     mainAxisAlignment:
-                                            //     MainAxisAlignment
-                                            //         .spaceBetween,
-                                            //     children: [
-                                            //       Text(
-                                            //         'Star',
-                                            //         style: TextStyle(
-                                            //           color: Colors.white,
-                                            //         ),
-                                            //       ),
-                                            //       Icon(
-                                            //         Icons.star_border,
-                                            //         color: Colors.white,
-                                            //       )
-                                            //     ],
-                                            //   ),
-                                            // ),
                                             const Divider(
                                               height: 0,
                                               thickness: 0.5,
@@ -241,27 +220,6 @@ class _TableExampleState extends State<TableExample> {
                                               icon: Icons.reply,
                                               onItemClicked: handleItemSelected,
                                             ),
-                                            // const Padding(
-                                            //   padding: EdgeInsets.symmetric(
-                                            //       horizontal: 15, vertical: 8),
-                                            //   child: Row(
-                                            //     mainAxisAlignment:
-                                            //     MainAxisAlignment
-                                            //         .spaceBetween,
-                                            //     children: [
-                                            //       Text(
-                                            //         'Reply',
-                                            //         style: TextStyle(
-                                            //           color: Colors.white,
-                                            //         ),
-                                            //       ),
-                                            //       Icon(
-                                            //         Icons.reply,
-                                            //         color: Colors.white,
-                                            //       )
-                                            //     ],
-                                            //   ),
-                                            // ),
                                             const Divider(
                                               height: 0,
                                               thickness: 0.5,
@@ -271,35 +229,6 @@ class _TableExampleState extends State<TableExample> {
                                               icon: Icons.reply,
                                               onItemClicked: handleItemSelected,
                                             ),
-                                            // Padding(
-                                            //   padding:
-                                            //   const EdgeInsets.symmetric(
-                                            //     horizontal: 15,
-                                            //     vertical: 8,
-                                            //   ),
-                                            //   child: Row(
-                                            //     mainAxisAlignment:
-                                            //     MainAxisAlignment
-                                            //         .spaceBetween,
-                                            //     children: [
-                                            //       const Text(
-                                            //         'Forward',
-                                            //         style: TextStyle(
-                                            //           color: Colors.white,
-                                            //         ),
-                                            //       ),
-                                            //       Transform(
-                                            //         alignment: Alignment.center,
-                                            //         transform:
-                                            //         Matrix4.rotationY(pi),
-                                            //         child: const Icon(
-                                            //           Icons.reply,
-                                            //           color: Colors.white,
-                                            //         ),
-                                            //       )
-                                            //     ],
-                                            //   ),
-                                            // ),
                                             const Divider(
                                               height: 0,
                                               thickness: 0.5,
@@ -309,27 +238,6 @@ class _TableExampleState extends State<TableExample> {
                                               icon: Icons.copy,
                                               onItemClicked: handleItemSelected,
                                             ),
-                                            // const Padding(
-                                            //   padding: EdgeInsets.symmetric(
-                                            //       horizontal: 15, vertical: 8),
-                                            //   child: Row(
-                                            //     mainAxisAlignment:
-                                            //     MainAxisAlignment
-                                            //         .spaceBetween,
-                                            //     children: [
-                                            //       Text(
-                                            //         'Copy',
-                                            //         style: TextStyle(
-                                            //           color: Colors.white,
-                                            //         ),
-                                            //       ),
-                                            //       Icon(
-                                            //         Icons.copy,
-                                            //         color: Colors.white,
-                                            //       )
-                                            //     ],
-                                            //   ),
-                                            // ),
                                             const Divider(
                                               height: 0,
                                               thickness: 0.5,
@@ -339,27 +247,6 @@ class _TableExampleState extends State<TableExample> {
                                               icon: Icons.warning,
                                               onItemClicked: handleItemSelected,
                                             ),
-                                            // const Padding(
-                                            //   padding: EdgeInsets.symmetric(
-                                            //       horizontal: 15, vertical: 8),
-                                            //   child: Row(
-                                            //     mainAxisAlignment:
-                                            //     MainAxisAlignment
-                                            //         .spaceBetween,
-                                            //     children: [
-                                            //       Text(
-                                            //         'Report',
-                                            //         style: TextStyle(
-                                            //           color: Colors.white,
-                                            //         ),
-                                            //       ),
-                                            //       Icon(
-                                            //         Icons.warning,
-                                            //         color: Colors.white,
-                                            //       )
-                                            //     ],
-                                            //   ),
-                                            // ),
                                             const Divider(
                                               height: 0,
                                               thickness: 0.5,
@@ -403,7 +290,7 @@ class _TableExampleState extends State<TableExample> {
   }
 }
 
-//Icons.star_border
+
 class ItemView extends StatelessWidget {
   final String title;
   final IconData icon;
