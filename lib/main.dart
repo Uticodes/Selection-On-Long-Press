@@ -7,13 +7,13 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() {
-  runApp(const TableExampleApp());
+  runApp(const ItemSelectionExampleApp());
 }
 
 /// A sample application that utilizes the TableView API.
-class TableExampleApp extends StatelessWidget {
+class ItemSelectionExampleApp extends StatelessWidget {
   /// Creates an instance of the TableView example app.
-  const TableExampleApp({super.key});
+  const ItemSelectionExampleApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,19 +22,19 @@ class TableExampleApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: const TableExample(),
+      home: const ItemSelectionExample(),
     );
   }
 }
 
-class TableExample extends StatefulWidget {
-  const TableExample({super.key});
+class ItemSelectionExample extends StatefulWidget {
+  const ItemSelectionExample({super.key});
 
   @override
-  State<TableExample> createState() => _TableExampleState();
+  State<ItemSelectionExample> createState() => _ItemSelectionExampleState();
 }
 
-class _TableExampleState extends State<TableExample> {
+class _ItemSelectionExampleState extends State<ItemSelectionExample> {
   String? selectedTitle = "";
 
   void handleItemSelected(String? title) {
